@@ -73,7 +73,7 @@ function App() {
             <div className="delete-todo" onClick={() => deleteTodo(todo._id)}>x</div>
           </div>
         )) : (
-          <p>You currently have no tasks</p>
+          <p>No todos left!(Or the server is loading the list)</p>
         )}
       </div>
 
